@@ -1,0 +1,6 @@
+{
+  "name": "monaspace-font",
+  "devDependencies": {
+    "tsup": "^8.0.1"
+  }
+}
