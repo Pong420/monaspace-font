@@ -1,0 +1,3 @@
+[submodule "monaspace"]
+	path = monaspace
+	url = https://github.com/githubnext/monaspace.git

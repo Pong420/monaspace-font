@@ -1,6 +1,28 @@
 {
   "name": "monaspace-font",
+  "version": "0.0.2",
+  "type": "module",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pong420/monaspace-font"
+  },
+  "keywords": [
+    "monaspace",
+    "fonts"
+  ],
+  "author": "Pong420",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npm run build -- --watch src",
+    "build": "tsup src/index.ts --clean --no-splitting --format='esm' --onSuccess='node dist/index.js'"
+  },
   "devDependencies": {
-    "tsup": "^8.0.1"
+    "@types/lodash-es": "^4.17.12",
+    "@types/node": "^20.10.6",
+    "lodash-es": "^4.17.21",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3",
+    "prettier": "^3.1.1"
   }
 }
